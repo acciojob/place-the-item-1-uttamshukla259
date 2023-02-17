@@ -3,7 +3,7 @@
 .holder {
   display: flex;
   flex-wrap: wrap;
-  justify-content: center;
+  justify-content: row;
 }
 
 /* CSS for the item elements */
@@ -11,5 +11,5 @@
   margin: 100px;
   padding: 20px;
   background-color: #f2f2f2;
-  border: 1px solid #ddd;
+  border: 1px ;
 }
