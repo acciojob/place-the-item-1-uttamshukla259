@@ -1,13 +1,13 @@
 
-* {
+/* * {
   box-sizing: border-box;
-}
+} */
 
 /* Set margin and padding to 0 for the body element to avoid default spacing */
-body {
-  margin: 0;
+/* body {
+  margin:1px;
   padding: 0;
-}
+} */
 
 /* Create a flex container with row direction */
 .holder {
@@ -29,13 +29,13 @@ body {
 }
 
 /* Remove the right margin from the last item in each row */
-.item:last-child {
+/* .item:last-child {
   margin-right: 0;
-}
+} */
 
 /* Stretch the flex items to fill the entire row if they are the only ones in the row */
-@media (min-width: 600px) {
+/* @media (min-width: 600px) {
   .item:nth-child(3n+1) {
     flex-grow: 1;
   }
-}
+} */
